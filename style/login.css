@@ -1,0 +1,131 @@
+body{
+    background-color: #f3f3f3;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#left-login{
+    margin-right: 80px;
+}
+
+#left-login h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: #3820f0;
+}
+
+#left-login p{
+    font-size: 2.8em;
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 3px 8px #0000002d;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+a#connect-button{
+    width: 100%;
+    padding: 16px 0;
+    background-color: #3820f0;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#forget-password{
+    margin-top: 8px;
+}
+
+#forget-password a{
+    font-size: 1.5em;
+    color: #3820f0;
+}
+
+#forget-password a:hover{
+    text-decoration: underline;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#login-form input{
+    border: 1px solid #dddfe2;
+    padding: 16px;
+    font-size: 1.7em;
+    border-radius: 8px;
+    width: 364px;
+}
+
+#login-form #forget-password a:hover{
+    text-decoration: underline;
+}
+
+#login-form input:focus{
+    border: 1px solid #65b2f1;
+    box-shadow: 0 0 5px #65b2f1;
+}
+
+#line{
+    border-bottom: 1px solid #dddfe2;
+}
+
+#createAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#createAccount button{
+    width: 70%;
+    height: auto;
+    padding: 16px;
+    background-color: #56D552;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 1.7em;
+}
+
+#special-account{
+    margin-top: 16px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#special-account a{
+    font-weight: bold;
+    color: #000000;
+}
+
+#special-account a:hover{
+    text-decoration: underline;
+}

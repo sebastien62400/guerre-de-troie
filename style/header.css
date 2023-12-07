@@ -1,7 +1,12 @@
 header{
-    background: #dcdcdc;
+    background: #242526;
     padding: 8px;
-    border-bottom: 1px solid #6767677c;
+    border-bottom: 1px solid #74757676;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 #lch{
@@ -11,6 +16,7 @@ header{
 
 #logo img{
     width: 35px;
+    height: auto;
 }
 
 #research{
@@ -18,4 +24,52 @@ header{
     flex-direction: row;
     align-items: center;
     gap: 8px;
+    background-color: #3A3B3C;
+    border-radius: 50px;
+}
+
+#research img{
+    width: 24px;
+    margin-left: 12px;
+}
+
+#research input{
+    padding: 12px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.7em;
+}
+
+#cch{
+    display: flex;
+    align-items: center;
+}
+
+#cch ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#cch li{
+    width: 80px;
+}
+
+#cch a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cch img{
+    width: 32px;
+}
+
+#rch{
+    display: flex;
+    flex-direction: row;
 }

@@ -51,25 +51,55 @@ header{
     justify-content: center;
     align-items: center;
     gap: 8px;
+    height: 100%;
 }
 
 #cch li{
     width: 80px;
+    height: 100%;
 }
 
 #cch a{
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
-    display: flex;
     justify-content: center;
 }
 
-#cch img{
+#cch img, #rch img{
     width: 32px;
 }
 
-#rch{
+#rch, #rch ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+#rch ul{
+    gap: 8px;
+}
+
+#active{
+    position: relative;
+}
+
+#active ::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -9px;
+}
+
+#cch img, #rch img, #lch img{
+    -webkit-filter: invert(100%);
+}
+
+#cch a:hover{
+    background-color: #ffffff80;
+    border-radius: 8px;
 }

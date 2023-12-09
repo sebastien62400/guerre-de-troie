@@ -97,6 +97,7 @@ a#connect-button{
 
 #line{
     border-bottom: 1px solid #dddfe2;
+    width: 100%;
 }
 
 #createAccount{

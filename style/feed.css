@@ -1,0 +1,29 @@
+#ad, #friend{
+    width: 250px;
+    height: 100%;
+}
+
+section{
+    width: 545px;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#ad{
+    background-color: red;
+}
+
+section{
+    background-color: blue;
+}
+
+#friend{
+    background-color: purple;
+}

@@ -1,11 +1,16 @@
 #ad, #friend{
     width: 250px;
     height: 100%;
+    position: relative;
 }
 
 section{
     width: 545px;
     height: 100%;
+}
+
+#friend-list{
+    position: fixed;
 }
 
 main{
@@ -26,4 +31,50 @@ section{
 
 #friend{
     background-color: purple;
+    padding: 0 8px;
+}
+
+.friend-a{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.friend-a:hover{
+    background-color: #ffffff7c;
+}
+
+.friend-a a{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.friend-a img{
+    width: 35px;
+    height: auto;
+}
+
+.friend-a .logo{
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50px;
+    position: relative;
+}
+
+.friend-a img{
+    width: 100%;
+}
+
+#friend-list{
+    position: relative;
+    top: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }

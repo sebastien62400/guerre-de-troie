@@ -7,16 +7,31 @@ header{
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 #lch{
     display: flex;
     align-items: center;
+    width: 155px;
 }
 
 #logo img{
     width: 35px;
     height: auto;
+}
+
+#logo-profil{
+    overflow: hidden;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+#logo-profil img{
+    width: 35px !important;
+    height: auto;
+    -webkit-filter: invert(0%) !important;
 }
 
 #research{

@@ -1,32 +1,22 @@
-# Les updates du projet auront maintenant ce document pour montrer les changements
+# GROSSE UPDATE
 
-V 0.0.6
-
-
-
-Dans cette version j'ai ajouté un titre pour les contacts.
-
-Avant
-![contact v0.0.5](./images/maj/contact-v0_0_5.png)
-
-Après
-![contact v0.0.6](./images/maj/contact-v0_0_6.png)
+V 0.0.7
 
 
 
-Ajout de la zone pour les pubs. La zone blanche sera remplacé par les pubs.
+Cette mise à jour sera la plus grosse du projet
 
-Avant
-![pub v0.0.5](./images/maj/pub-v0_0_5.png)
+Ajout du contenu dans la section principal, ajout pour les postes avec et sans commentaire.
 
-Après
-![pub v0.0.6](./images/maj/pub-v0_0_6.png)
+Sans commentaire
 
 
-Petite prenthèse, dans la precedente update, les bouttons centraux du header ont été centré.
+![no comment v0.0.7](./images/maj/poste-no-commentaire.png)
 
-Avant v0.0.5
-![header v0.0.4](./images/maj/header-v0_0_4.png)
 
-Après v0.0.5
-![header v0.0.5](./images/maj/header-v0_0_5.png)
+Avec commentaire
+
+
+![comment v0.0.7](./images//maj/comment.png)
+
+Il y a d'ajouts comme le responsive dans la page principal (que pour la page principal, pas la page de login) ou le correctif de certains bugs

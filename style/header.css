@@ -58,19 +58,21 @@ header{
 #cch{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 680px;
 }
 
 #cch ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 8px;
     height: 100%;
+    width: 100%;
 }
 
 #cch li{
-    width: 80px;
+    width: 100px;
     height: 100%;
 }
 
@@ -97,6 +99,10 @@ header{
 
 #active{
     position: relative;
+}
+
+#active a:hover{
+    background-color: transparent !important;    
 }
 
 #active ::before{

@@ -1,22 +1,9 @@
-# GROSSE UPDATE
+# DERNIÈRE LIGNE DROITE
 
-V 0.0.7
+V 0.1
 
+Cette mise à jour sera la dernière avant la version final
 
+Dans ce patch note le site est full responsive (jusqu'à la résolution d'un iPhone 12 pro 390px)
 
-Cette mise à jour sera la plus grosse du projet
-
-Ajout du contenu dans la section principal, ajout pour les postes avec et sans commentaire.
-
-Sans commentaire
-
-
-![no comment v0.0.7](./images/maj/poste-no-commentaire.png)
-
-
-Avec commentaire
-
-
-![comment v0.0.7](./images//maj/comment.png)
-
-Il y a d'ajouts comme le responsive dans la page principal (que pour la page principal, pas la page de login) ou le correctif de certains bugs
+La zone de scroll a était agrandi

@@ -5,11 +5,18 @@
 }
 
 section{
-    width: 680px;
+    width: 80%;
     height: 100%;
     padding-top: 72px;
-    padding-bottom: 16px;
     overflow: auto;
+}
+
+#scroll-section{
+    width: 680px;
+    height: 100%;
+    padding-bottom: 16px;
+    display: block;
+    margin: 0 auto;
 }
 
 section::-webkit-scrollbar{
@@ -413,10 +420,18 @@ main{
     flex-direction: row;
     align-items: center;
     margin-top: 6px;
+    position: relative;
+}
+
+.on-top{
+    position: absolute;
+    top: 0;
+    left: 10px;
 }
 
 .text-commantaire{
     padding: 8px;
+    margin-left: 65px;
     color: #FFFFFF;
 }
 
@@ -460,16 +475,12 @@ main{
         display: none;
     }
 
-    section{
+    #scroll-section{
         margin-left: 70px;
     }
 }
 
 @media (max-width: 1350px){
-    section{
-        width: 50.6%;
-    }
-
     /* Nav */
 
     #research input{
@@ -492,14 +503,58 @@ main{
     }
 }
 
+@media (max-width: 1190px){
+    #mood{
+        display: none;
+    }
+
+    #send-button ul{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1060px){
+    #friend{
+        display: none;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    #scroll-section{
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 920px){
     section{
-        width: 90%;
+        width: 100%;
         display: block;
         margin: 0 auto;
     }
+}
 
-    #friend{
+@media (max-width: 695px){
+    #scroll-section{
+        width: 100%;
+    }
+
+    #cch li{
         display: none;
+    }
+
+    #cch ul{
+        justify-content: center;
+    }
+
+    li#active{
+        display: block;
+    }
+}
+
+@media (max-width: 637px){
+    .like-comment-button a{
+        padding: 8px 27%;
     }
 }

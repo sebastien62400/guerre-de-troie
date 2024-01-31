@@ -1,0 +1,39 @@
+footer{
+    background-color: #ffffff;
+    padding: 32px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+#languages ul, #footer-content ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #656565;
+}
+
+#languages a{
+    color: #7f7f7f;
+}
+
+#languages a:hover{
+    text-decoration: underline;
+}
+
+#languages button{
+    padding: 1px 8px;
+    background-color: #eeeeee;
+    border-radius: 2px;
+    border: 1px solid #65656534;
+}
+
+#languages button:hover{
+    background-color: #9494943e;
+}

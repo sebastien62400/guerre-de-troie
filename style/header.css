@@ -1,0 +1,126 @@
+header{
+    background: #242526;
+    padding: 8px;
+    border-bottom: 1px solid #74757676;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+#lch{
+    display: flex;
+    align-items: center;
+    width: 155px;
+}
+
+#logo img{
+    width: 35px;
+    height: auto;
+}
+
+#logo-profil{
+    overflow: hidden;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+#logo-profil img{
+    width: 35px !important;
+    height: auto;
+    -webkit-filter: invert(0%) !important;
+}
+
+#research{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background-color: #3A3B3C;
+    border-radius: 50px;
+}
+
+#research img{
+    width: 24px;
+    margin-left: 12px;
+}
+
+#research input{
+    padding: 12px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.7em;
+}
+
+#cch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 680px;
+}
+
+#cch ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#cch li{
+    width: 100px;
+    height: 100%;
+}
+
+#cch a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#cch img, #rch img{
+    width: 32px;
+}
+
+#rch, #rch ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#rch ul{
+    gap: 8px;
+}
+
+#active{
+    position: relative;
+}
+
+#active a:hover{
+    background-color: transparent !important;    
+}
+
+#active ::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -9px;
+}
+
+#cch img, #rch img, #lch img{
+    -webkit-filter: invert(100%);
+}
+
+#cch a:hover{
+    background-color: #ffffff80;
+    border-radius: 8px;
+}

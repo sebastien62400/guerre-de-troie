@@ -462,16 +462,6 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.contenu a{
-    color: #618cea;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.contenu a:hover{
-    text-decoration: underline;
-}
-
 .time{
     display: flex;
     flex-direction: row;
@@ -506,6 +496,13 @@ a.tag{
     font-size: 1.7em;
     color: #618cea;
     text-decoration: underline;
+}
+
+a#lien{
+    color: #3471ff;
+    font-size: 1.7em;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Responsive */

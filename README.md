@@ -1,6 +1,6 @@
 # DERNIÈRE LIGNE DROITE
 
-V 0.1
+V 1
 
 Cette mise à jour sera la dernière avant la version final
 
